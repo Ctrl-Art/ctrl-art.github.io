@@ -2,9 +2,10 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:20px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
+  background-color:#eee;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -99,6 +100,9 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  background-color: #fff;
+  padding:50px;
+  margin-left:-200px;
 }
 
 header ul {
@@ -160,9 +164,14 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:550px;
   float:right;
-  padding-bottom:50px;
+  padding:50px;
+  background-color:#eee;
+}
+
+section ul li {
+  margin-bottom:15px;
 }
 
 small {
